@@ -1,0 +1,298 @@
+{
+  "id": "preauth",
+  "name": "preauth",
+  "metaData": {
+    "name": "preauth",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "local"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "preauth",
+    "pluginVersion": "2.3.1",
+    "prefetchInterface": false,
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "id": "preauth:@bupa-mfe-platform/api",
+      "name": "@bupa-mfe-platform/api",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^0.0.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "remoteEntry.js",
+            "main.40f2fcb2db759a7d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:axios",
+      "name": "axios",
+      "version": "1.15.0",
+      "singleton": true,
+      "requiredVersion": "^1.15.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "remoteEntry.js",
+            "main.40f2fcb2db759a7d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:clsx",
+      "name": "clsx",
+      "version": "2.1.1",
+      "singleton": true,
+      "requiredVersion": "^2.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "409.a711a8440924a5d6.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:lucide-react",
+      "name": "lucide-react",
+      "version": "1.16.0",
+      "singleton": true,
+      "requiredVersion": "^1.14.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "221.b8c8640976150c25.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:react-dom/client",
+      "name": "react-dom/client",
+      "version": "19.0.0",
+      "singleton": true,
+      "requiredVersion": "19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "449.6a2d990c34076c69.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:react-dom",
+      "name": "react-dom",
+      "version": "19.0.0",
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "remoteEntry.js",
+            "main.40f2fcb2db759a7d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:react-router-dom",
+      "name": "react-router-dom",
+      "version": "6.30.3",
+      "singleton": true,
+      "requiredVersion": "6.30.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "remoteEntry.js",
+            "main.40f2fcb2db759a7d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:react/jsx-runtime",
+      "name": "react/jsx-runtime",
+      "version": "19.0.0",
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "remoteEntry.js",
+            "main.40f2fcb2db759a7d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:react",
+      "name": "react",
+      "version": "19.0.0",
+      "singleton": true,
+      "requiredVersion": "^19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "remoteEntry.js",
+            "main.40f2fcb2db759a7d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:rxjs",
+      "name": "rxjs",
+      "version": "7.8.2",
+      "singleton": true,
+      "requiredVersion": "^7.8.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "remoteEntry.js",
+            "main.40f2fcb2db759a7d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:shared-ui",
+      "name": "shared-ui",
+      "version": "1.0.0",
+      "singleton": true,
+      "requiredVersion": "^1.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "281.f2339e6141a9c323.js",
+            "662.380bc0c22b8215eb.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    },
+    {
+      "id": "preauth:tailwind-merge",
+      "name": "tailwind-merge",
+      "version": "3.6.0",
+      "singleton": true,
+      "requiredVersion": "^3.5.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "621.a92fc244717ff93f.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "fallback": ""
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "preauth:Bootstrap",
+      "name": "Bootstrap",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_Bootstrap.51c00a78a6b19df0.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Bootstrap.5ce4c1e623094a33.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./Bootstrap"
+    }
+  ]
+}
